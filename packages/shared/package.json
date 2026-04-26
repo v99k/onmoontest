@@ -1,0 +1,18 @@
+{
+  "name": "@game/shared",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Общие типы и утилиты для backend и frontend",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
